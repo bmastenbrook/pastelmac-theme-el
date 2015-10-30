@@ -38,7 +38,8 @@
  '(font-lock-warning-face ((t (:weight bold :foreground "DarkRed"))))
  '(mode-line ((t (:box (:line-width -1 :color "grey70" :style nil) :foreground "grey0" :background "grey90"))))
  '(mode-line-inactive ((t (:inherit mode-line :foreground "grey50"))))
- '(default ((t (:background "#EAF0F0" :foreground "black")))))
+ '(default ((t (:background "#EAF0F0" :foreground "black"))))
+ '(fringe ((t (:background "#EAF0F0")))))
 
 ;;;###autoload
 (when load-file-name
