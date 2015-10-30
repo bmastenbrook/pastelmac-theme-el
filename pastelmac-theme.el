@@ -40,6 +40,18 @@
  '(mode-line-inactive ((t (:inherit mode-line :foreground "grey50"))))
  '(default ((t (:background "#EAF0F0" :foreground "black")))))
 
+;;;###autoload
+(when load-file-name
+  (add-to-list
+   'custom-theme-load-path
+   (file-name-as-directory (file-name-directory load-file-name))))
+
+;;;###autoload
+(defun pastelmac-theme ()
+  "Load the pastelmac-theme."
+  (interactive)
+  (load-theme 'pastelmac t))
+
 (provide-theme 'pastelmac)
 
 ;;; pastelmac-theme.el ends here
