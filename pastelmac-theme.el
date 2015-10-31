@@ -4,7 +4,7 @@
 ;; Keywords: themes
 ;; URL: https://github.com/bmastenbrook/pastelmac-theme-el
 ;; Version: 1.0
-;; Package-Requires ((emacs "24.1"))
+;; Package-Requires: ((emacs "24.1"))
 
 ;;; Commentary:
 
